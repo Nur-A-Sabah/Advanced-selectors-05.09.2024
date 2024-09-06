@@ -1,0 +1,26 @@
+body {
+  font-family: "Arial Narrow Bold";
+  background-color: #f7f9fc;
+  color: #000;
+}
+h1 {
+  color: #000;
+}
+a:hover {
+  color: #fc2706;
+}
+a::after {
+  content: "💻";
+}
+ul > li {
+  font-weight: bold;
+}
+ul li:hover {
+  color: #fc2706;
+}
+ul li::before {
+  content: "✨";
+}
+ul li:nth-child(7) {
+  background-color: #f98b7a;
+}
